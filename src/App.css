@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  width: 80%;
+  background-color: lightslategray;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .App-logo {
@@ -36,3 +40,55 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  padding-top: 20px;
+}
+header{
+  height: 120px;
+  background-color: green;
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  width: 95%;
+  margin-top:15px ;
+
+}
+
+.Navigation {
+  width: 23%;
+  height: 450px;
+  background-color: lightblue;
+  margin-right: 25px;
+}
+
+.Main {
+  width: 75%;
+  height: 550px;
+  background-color:red;
+}
+
+.subcontents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SubContents {
+  width: 30%;
+  height: 400px;
+  background-color: yellow;
+  margin-top:10px
+}
+.Advertisement {
+  height: 100px;
+  background-color: lightcyan;
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
